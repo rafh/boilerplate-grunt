@@ -1,5 +1,9 @@
 
 
 $(document).ready(function(){
-  console.log('WORKING');
+  $(".scroll-up").click(function() {
+      $("html, body").animate({
+          scrollTop: $(".header").offset().top
+      }, 1500)
+    })
 })

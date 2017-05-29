@@ -12,7 +12,18 @@ h4,
 h5,
 h6,
 p {
+    font-family: Arial, sans-serif;
     margin-bottom: 20px;
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+img {
+  max-width: 100%;
 }
 
 /*******************
