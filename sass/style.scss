@@ -150,7 +150,7 @@ $highlight: #F6A800;
 
 .skills {
   padding: 30px;
-  background-color: #b3b3b3;
+  background-color: $mainColor;
 
   ul {
     padding: 0;
@@ -172,7 +172,7 @@ $highlight: #F6A800;
 
 .footer {
   padding: 40px 20px;
-  background-color: #4d4d4d;
+  background-color: $subColor;
   text-align: center;
 
   @media (min-width: 768px) {
@@ -196,10 +196,13 @@ $highlight: #F6A800;
 
 .sub-footer {
   position: relative;
+  background-color: $mainColor;
 
   span {
     display: inline-block;
     padding: 10px 0 10px 30px;
+
+
   }
 
   i {
@@ -222,3 +225,8 @@ $highlight: #F6A800;
     top: 12px;
   }
 }
+
+.container_projects{
+    background-color: $mainColor;
+}
+
