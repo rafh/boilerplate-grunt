@@ -73,6 +73,7 @@ $highlight: #F6A800;
 .jumbotron--custom {
   position: relative;
   padding: 0;
+  margin-bottom: 0;
 
   img {
     max-width: 100%;
@@ -80,6 +81,8 @@ $highlight: #F6A800;
 }
 
 .work {
+    background-color: blue;
+    width: 100px;
 
   button {
     margin-bottom: 30px;
