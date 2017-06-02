@@ -81,8 +81,9 @@ $highlight: #F6A800;
 }
 
 .work {
-    background-color: blue;
-    width: 100px;
+    background-color: $mainColor;
+    width: 100%;
+    padding:30px 30px 0;
 
   button {
     margin-bottom: 30px;
@@ -174,7 +175,7 @@ $highlight: #F6A800;
 }
 
 .footer {
-  padding: 40px 20px;
+  padding: 40px 30px;
   background-color: $subColor;
   text-align: center;
 

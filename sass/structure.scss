@@ -17,6 +17,7 @@ p {
 }
 
 a {
+  color: white;
   &:hover {
     text-decoration: none;
   }
@@ -24,6 +25,10 @@ a {
 
 img {
   max-width: 100%;
+}
+
+li{
+    color: white;
 }
 
 /*******************
