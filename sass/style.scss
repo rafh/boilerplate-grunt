@@ -232,10 +232,15 @@ $highlight: #F6A800;
 
 .container_projects{
     background-color: $mainColor;
+    padding: 30px;
 
     img{
-        padding:11px;
+      margin: 10px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.27);
+    }
+
+    .card-text,
+    .card-title {
+      color: #333;
     }
 }
-
-
