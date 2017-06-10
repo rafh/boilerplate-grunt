@@ -238,14 +238,29 @@ $highlight: #F6A800;
     background-color: $mainColor;
     h4{
         text-align: center;
+        position: relative;
+        top: 20px;
     }
 
     .project_images{
         padding-bottom: 10px;
     }
 
-
-
+  .card-img-overlay{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: rgba(246, 168, 0, 0.54);
+      &:hover{
+          opacity: .9;
+      }
+   }
 }
 
 
