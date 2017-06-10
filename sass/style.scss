@@ -88,7 +88,10 @@ $highlight: #F6A800;
   button {
     margin-bottom: 30px;
   }
+
+    
 }
+
 
 .phone-wrap {
   display: flex;
@@ -179,6 +182,7 @@ $highlight: #F6A800;
   background-color: $subColor;
   text-align: center;
 
+
   @media (min-width: 768px) {
     text-align: left;
   }
@@ -230,12 +234,18 @@ $highlight: #F6A800;
   }
 }
 
-.container_projects{
+.container_projects {
     background-color: $mainColor;
-
-    img{
-        padding:11px;
+    h4{
+        text-align: center;
     }
+
+    .project_images{
+        padding-bottom: 10px;
+    }
+
+
+
 }
 
 
